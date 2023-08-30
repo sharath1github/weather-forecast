@@ -1,0 +1,200 @@
+.head{
+  background-color: rgb(39, 33, 33);
+  color: white;
+  padding: 7px;
+  font-size: 12px;
+  text-align: center;
+}
+body {
+  background-color: white;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-size: 20px;
+  font-weight: 20px;
+  background-image: url("https://images.pexels.com/photos/1165991/pexels-photo-1165991.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+}
+.tittle {
+  font-size: 50px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: rgb(30, 29, 29);
+  font-weight: 700;
+  margin-right: 900px;
+}
+
+
+.card {
+  box-shadow: 0 15px 25px rgba(15, 15, 15, 0.7);
+  margin: 20px;
+
+  border-radius: 19px;
+  backdrop-filter: blur(15px);
+  background-color: rgba(235, 225, 225, 0.2);
+  padding: 10px;
+  text-align: center;
+}
+.current {
+  min-width: 300px;
+}
+.containerHead {
+  width: 90%;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.searchdiv {
+  display: flex;
+  width: 30%;
+  padding: 10px;
+  padding-top: 15px;
+  padding-left: 10px;
+  text-align: center;
+  margin: auto;
+}
+.searchbar {
+  border-radius: 10px;
+  border-color: orange;
+}
+
+.searchbtn {
+  margin-left: 10px;
+}
+.error {
+  text-align: center;
+  display: none;
+}
+.errormsg {
+  color: #ff0000;
+ 
+}
+.containertwo {
+  display: flex;
+  justify-content:center;
+
+}
+
+.icon {
+  margin-top: -40px;
+}
+.temperature1 {
+  margin-top: -60px;
+}
+
+.humwin {
+  display: flex;
+}
+.hum {
+  display: flex;
+  padding-right: 10px;
+}
+.imghum {
+  width: 50px;
+}
+
+.day2 {
+  display: flex;
+}
+.day2winhum {
+  display: flex;
+  justify-content: center;
+}
+.image2 {
+  width: 20px;
+}
+.icon2 {
+  width: 90px;
+}
+
+.secondday {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.hum2 {
+  padding-right: 10px;
+}
+.remaining {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.foot {
+  background-color: rgb(47, 43, 43);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 10px;
+}
+
+.lgo {
+  width: 30px;
+}
+.cont {
+  padding-left: 60px;
+  display: flex;
+}
+.locnt {
+  padding-left: 15px;
+}
+.current-info{
+  display: flex;
+
+}
+.date-container{
+  font-weight: 100;
+  padding-left: 50px;
+}
+.date-container .time{
+  font-size: 70px;
+}
+
+.date-container #am-pm{
+  font-size: 30px;
+  margin-left: 20px;
+}
+
+.date-container .date{
+  font-size: 30px;
+}
+
+.place-container{
+  text-align: end;
+}
+
+.place-container .time-zone{
+  font-size: 30px;
+  font-weight: 100;
+}
+
+.place-container .country{
+  font-size: 12px;
+  font-weight: 700;
+}
+.w4{
+padding-top: 10px;
+}
+.w5{
+  padding-top: 12px;
+}
+.w3{
+  padding-top: 5px;
+}
+.w7,.w6{
+  padding-left: 5px;
+}
+.val{
+  padding-left: 25px;
+}
+.date-container{
+  padding-left: 190px;
+  margin-right: 150px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  
+}
+.a{
+  padding-bottom: 50px;
+}
